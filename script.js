@@ -4,8 +4,8 @@ function showInfo(anime) {
 
     let info = "";
 
-    if (anime === "Naruto") {
-        info = "Naruto adalah anime tentang ninja yang ingin menjadi Hokage.";
+    if (anime === "Yosuga no sora") {
+        info = "Yosuga no Sora bercerita tentang dua saudara kembar Kasugano Haruka dan Kasugano Sora. Mereka menjadi yatim piatu setelah orang tua mereka meninggal dalam kecelakaan mobil yang tragis. Dari kehidupan di perkotaan yang penuh hiruk pikuk, mereka harus pindah ke rumah peninggalan kakek dan nenek mereka di pedesaan.";
     } else if (anime === "One Piece") {
         info = "One Piece menceritakan petualangan Luffy mencari harta karun.";
     } else if (anime === "Attack on Titan") {
