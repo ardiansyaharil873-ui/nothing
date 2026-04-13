@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Anime Web</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+
+<header>
+    <h1>Nontonanimeid</h1>
+    <p>Tempat info anime favoritmu</p>
+</header>
+
+<section class="anime-container">
+    <div class="card">
+        <img src="ysg.jpg" alt="Anime">
+        <h3>Yosuga no sora</h3>
+        <button onclick="showInfo('Naruto')">Lihat Info</button>
+    </div>
+
+    <div class="card">
+        <img src="roh.jpg" alt="Anime">
+        <h3>Redo of healer</h3>
+        <button onclick="showInfo('One Piece')">Lihat Info</button>
+    </div>
+
+
+</section>
+
+<div id="popup" class="popup">
+    <p id="infoText"></p>
+    <button onclick="closePopup()">Tutup</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
