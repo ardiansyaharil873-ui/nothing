@@ -4,9 +4,9 @@ function showInfo(anime) {
 
     let info = "";
 
-    if (anime === "Yosuga no sora") {
+    if (anime === yosuga-no-sora) {
         info = "Yosuga no Sora bercerita tentang dua saudara kembar Kasugano Haruka dan Kasugano Sora. Mereka menjadi yatim piatu setelah orang tua mereka meninggal dalam kecelakaan mobil yang tragis. Dari kehidupan di perkotaan yang penuh hiruk pikuk, mereka harus pindah ke rumah peninggalan kakek dan nenek mereka di pedesaan.";
-    } else if (anime === "One Piece") {
+    } else if (anime === "Redo of healer") {
         info = "One Piece menceritakan petualangan Luffy mencari harta karun.";
     } else if (anime === "Attack on Titan") {
         info = "Anime tentang manusia melawan titan raksasa.";
